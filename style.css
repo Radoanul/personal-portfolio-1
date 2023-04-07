@@ -1,0 +1,343 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Alkatra", cursive;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(0, 0, 0);
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+/* Navbar */
+nav {
+  padding-top: 20px;
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  background-color: black;
+}
+nav .logo {
+  margin-left: 30px;
+  cursor: pointer;
+}
+nav h2 img {
+  height: 50px;
+  width: 150px;
+}
+nav ul {
+  margin-right: 50px;
+}
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px 25px;
+  margin-right: 10px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  transition: 0.5s ease;
+  text-transform: capitalize;
+}
+nav ul li a:hover {
+  color: rgb(255, 119, 0);
+}
+
+/* Content */
+.menu {
+  background-image: url(/image/content1.jpg);
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+  padding-top: 250px;
+  padding-left: 30%;
+}
+.content h4 {
+  color: white;
+  font-size: 100px;
+}
+.content h1 {
+  color: rgb(255, 119, 0);
+  margin-left: 240px;
+  font-size: 80px;
+}
+
+/* About */
+.about {
+  height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
+  padding-top: 180px;
+}
+.my-content {
+  display: flex;
+  justify-content: space-evenly;
+}
+.my-content img {
+  max-height: 500px;
+  max-width: 350px;
+}
+.about-me {
+  margin-top: 50px;
+  letter-spacing: 1px;
+}
+.about-me h1 {
+  color: white;
+  font-size: 45px;
+  font-family: "Alkatra", cursive;
+}
+.about-me span,
+h3 {
+  color: rgb(255, 119, 0);
+}
+.about-me h3 {
+  margin-left: 130px;
+  font-size: 25px;
+}
+.about-me p {
+  color: white;
+}
+.about-me button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 2px solid rgb(255, 119, 0);
+  margin-top: 10px;
+  transition: 0.5s ease;
+}
+.about-me button:hover {
+  border: 2px solid white;
+  background-color: rgb(255, 119, 0);
+}
+.about-me button a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-family: arial;
+  font-weight: bold;
+}
+/* Skill */
+.skill {
+  height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
+  padding-top: 250px;
+  background-image: url(/image/menu1.png);
+  background-position: center;
+  background-size: cover;
+}
+.skill h1 {
+  color: rgb(255, 119, 0);
+}
+.skill p {
+  color: white;
+}
+.cls-1 {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 40px 0;
+}
+.cls-2 {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 40px 0;
+}
+.cls-1 div {
+  height: max-content;
+  text-align: center;
+}
+.cls-2 div {
+  height: max-content;
+  text-align: center;
+}
+.cls-1 .htmlcss {
+  border: 5px solid white;
+  cursor: pointer;
+  transition: 1s ease;
+}
+.cls-1 .htmlcss:hover {
+  box-shadow: 0 0 15px 15px white;
+  border: 5px solid rgb(255, 119, 0);
+}
+.cls-1 .boot {
+  border: 5px solid white;
+  cursor: pointer;
+  transition: 1s ease;
+}
+.cls-1 .boot:hover {
+  box-shadow: 0 0 15px 15px white;
+  border: 5px solid rgb(255, 119, 0);
+}
+.cls-2 .js {
+  border: 5px solid white;
+  cursor: pointer;
+  transition: 1s ease;
+}
+.cls-2 .js:hover {
+  box-shadow: 0 0 15px 15px white;
+  border: 5px solid rgb(255, 119, 0);
+}
+.cls-2 .react {
+  border: 5px solid white;
+  cursor: pointer;
+  transition: 1s ease;
+}
+.cls-2 .react:hover {
+  box-shadow: 0 0 15px 15px white;
+  border: 5px solid rgb(255, 119, 0);
+}
+/* service */
+.service {
+  height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
+  padding-top: 200px;
+  padding-left: 300px;
+}
+.service div h1 {
+  color: white;
+  text-align: center;
+  font-size: 60px;
+  margin-right: 100px;
+}
+.design {
+  display: flex;
+  align-items: center;
+  margin-top: 80px;
+}
+.design i {
+  text-decoration: none;
+  color: rgb(251, 54, 36);
+  font-size: 50px;
+  padding-right: 50px;
+}
+.design p {
+  color: white;
+}
+.develop {
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+}
+.develop i {
+  text-decoration: none;
+  color: rgb(251, 54, 36);
+  font-size: 50px;
+  padding-right: 50px;
+}
+.develop p {
+  color: white;
+}
+p span {
+  color: rgb(255, 119, 0);
+  font-size: 20px;
+  font-weight: bold;
+}
+/* contact */
+.contact {
+  height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
+  padding-top: 160px;
+  padding-left: 42%;
+}
+.contact h2 {
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  margin-left: -50px;
+}
+.contact h4 {
+  color: rgb(255, 119, 0);
+  margin-left: 70px;
+  font-size: 40px;
+}
+.form {
+  width: 300px;
+  height: 420px;
+  background: linear-gradient(
+    to top,
+    rgba(93, 92, 92, 0.8) 50%,
+    rgba(93, 92, 92, 0.8) 50%
+  );
+  border-radius: 10px;
+  padding: 25px;
+}
+.form h2 {
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 22px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+  margin: 2px;
+  padding: 8px;
+  border: 2px solid rgb(255, 119, 0);
+}
+.form input {
+  width: 240px;
+  height: 35px;
+  background: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid rgb(255, 119, 0);
+  color: white;
+  font-size: 15px;
+  letter-spacing: 1px;
+  margin-top: 30px;
+  font-family: Arial;
+  font-weight: bold;
+}
+.form input:focus {
+  outline: none;
+}
+::placeholder {
+  color: white;
+}
+.form button {
+  width: 240px;
+  height: 40px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(255, 119, 0);
+  font-size: 18px;
+}
+.form button a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  font-size: 20px;
+}
+.form p {
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  margin-top: 5px;
+}
+.form p a {
+  text-decoration: none;
+  color: rgb(255, 119, 0);
+}
+.form .mini-link {
+  margin-top: 20px;
+}
+.sticker {
+  text-align: center;
+  margin-top: 10px;
+}
+.sticker a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 6px;
+  font-size: 20px;
+}
